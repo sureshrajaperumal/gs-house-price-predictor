@@ -29,5 +29,5 @@ jobs:
         with:
           context: ./streamlit_app
           push: true
-          tags: docker.io/${{ vars.DOCKERHUB_USERNAME }}/streamlit:latest
+          tags: docker.io/${{ vars.DOCKER_HUB_USERNAME }}/streamlit:latest
           platforms: linux/amd64,linux/arm64
